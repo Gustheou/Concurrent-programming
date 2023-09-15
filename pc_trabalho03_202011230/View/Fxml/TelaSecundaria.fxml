@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControleGeral">
+   <children>
+      <ImageView fitHeight="471.0" fitWidth="820.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/cenario.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="homemAranhaSuperiorEsquerdo" fitHeight="59.0" fitWidth="87.0" layoutX="98.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 2;">
+         <image>
+            <Image url="@../Images/Spiderman.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="homemAranhaSuperiorDireito" fitHeight="59.0" fitWidth="87.0" layoutX="641.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 0;">
+         <image>
+            <Image url="@../Images/Spiderman.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="homemAranhaSuperiorCentroDireito" fitHeight="59.0" fitWidth="87.0" layoutX="523.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 0;">
+         <image>
+            <Image url="@../Images/Spiderman.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="homemAranhaSuperiorCentroEsquerdo" fitHeight="59.0" fitWidth="87.0" layoutX="211.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true" style="-fx-rotate: 358;">
+         <image>
+            <Image url="@../Images/Spiderman.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="iniciarButton" layoutX="375.0" layoutY="424.0" mnemonicParsing="false" onAction="#inicializarButton" prefHeight="27.0" prefWidth="71.0" style="-fx-background-radius: 15;" text="Iniciar">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="aumentarVelocidadeDoTremVermelhoButton" layoutX="261.0" layoutY="421.0" mnemonicParsing="false" onAction="#aumentarVelocidadeDoTremVermelho" text="⋀" visible="false" />
+      <TextField fx:id="velocidadeTremVermelho" editable="false" layoutX="117.0" layoutY="421.0" prefHeight="26.0" prefWidth="138.0" text="Vermelho:" visible="false" />
+      <Button fx:id="diminuirVelocidadeDoTremVermelhoButton" layoutX="83.0" layoutY="421.0" mnemonicParsing="false" onAction="#diminuirVelocidadeDoTremVermelho" text="⋁" visible="false" />
+      <Button fx:id="aumentarVelocidadeDoTremAzulButton" layoutX="714.0" layoutY="422.0" mnemonicParsing="false" onAction="#aumentarVelocidadeDoTremAzul" text="⋀" visible="false" />
+      <TextField fx:id="velocidadeTremAzul" editable="false" layoutX="572.0" layoutY="422.0" prefHeight="26.0" prefWidth="138.0" text="Azul:" visible="false" />
+      <Button fx:id="diminuirVelocidadeDoTremAzulButton" layoutX="538.0" layoutY="422.0" mnemonicParsing="false" onAction="#diminuirVelocidadeDoTremAzul" text="⋁" visible="false" />
+      <ImageView fx:id="tremVermelho" fitHeight="150.0" fitWidth="200.0" layoutX="-7.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/TremVermelho.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tremAzul" fitHeight="150.0" fitWidth="200.0" layoutX="708.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/TremAzul.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

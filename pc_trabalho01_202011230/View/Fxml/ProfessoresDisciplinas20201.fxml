@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControleProfessoresDisciplina20201">
+   <children>
+      <Label layoutX="148.0" layoutY="75.0" text="Professores e suas disciplinas">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane prefHeight="32.0" prefWidth="600.0" style="-fx-background-color: #36454F;" />
+      <AnchorPane layoutY="1.0" prefHeight="400.0" prefWidth="32.0" style="-fx-background-color: #36454F;" />
+      <AnchorPane layoutX="568.0" layoutY="1.0" prefHeight="400.0" prefWidth="32.0" style="-fx-background-color: #36454F;" />
+      <ImageView fitHeight="71.0" fitWidth="72.0" layoutX="59.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Professor.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="82.0" fitWidth="71.0" layoutX="482.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/Estante.png" />
+         </image>
+      </ImageView>
+      <GridPane layoutX="55.0" layoutY="135.0" prefHeight="210.0" prefWidth="501.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" maxWidth="244.0" minWidth="10.0" prefWidth="229.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="366.0" minWidth="10.0" prefWidth="278.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Alexsandra de Oliveira Andrade" GridPane.rowIndex="1" />
+            <Label text="Alzira Ferreira da Silva" GridPane.rowIndex="2" />
+            <Label text="Carlos Alberto Gomes dos Santos" GridPane.rowIndex="3" />
+            <Label text="Catia Mesquita Brasil Khouri" GridPane.rowIndex="4" />
+            <Label text="Cristina de Andrade Santos Reis" GridPane.rowIndex="5" />
+            <Label text="Fernando dos Santos Silva" GridPane.rowIndex="6" />
+            <Label text="Maira Avelar Miranda" GridPane.rowIndex="7" />
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" style="-fx-background-radius: 20;" text="Calculo e integral I" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" style="-fx-background-radius: 20;" text="Matematica discreta" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" style="-fx-background-radius: 20;" text="Ingles aplicado a computacao" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" style="-fx-background-radius: 20;" text="Algoritmo e programacao I" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" style="-fx-background-radius: 20;" text="Estatistica e probabilidade" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" style="-fx-background-radius: 20;" text="Geometria analitica e calculo vetorial" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" style="-fx-background-radius: 20;" text="Leitura e escrita de textos academicos" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label text="Professores:">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label text="Disciplinas:" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Button layoutX="249.0" layoutY="362.0" mnemonicParsing="false" onAction="#voltarButton" text="Voltar" />
+   </children>
+</AnchorPane>

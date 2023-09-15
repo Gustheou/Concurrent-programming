@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControleGeral">
+   <children>
+      <ImageView fitHeight="68.0" fitWidth="292.0" layoutX="483.0" layoutY="9.0" pickOnBounds="true">
+         <image>
+            <Image url="@SpongeBobBackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="292.0" layoutX="482.0" layoutY="83.0" pickOnBounds="true">
+         <image>
+            <Image url="@PlanktonBackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="292.0" layoutX="482.0" layoutY="160.0" pickOnBounds="true">
+         <image>
+            <Image url="@SharkBackground.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="292.0" layoutX="482.0" layoutY="237.0" pickOnBounds="true">
+         <image>
+            <Image url="@PurpleFishBackground.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="301.0" layoutX="480.0" layoutY="308.0" pickOnBounds="true">
+         <image>
+            <Image url="@RedFishBackgroud.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="410.0" fitWidth="741.0" layoutX="-167.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Cenario.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="iniciarButton" layoutX="834.0" layoutY="222.0" mnemonicParsing="false" onAction="#iniciarButton" prefHeight="108.0" prefWidth="187.0" style="-fx-background-radius: 20;" text="Iniciar" underline="true">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fx:id="carroPlankton" fitHeight="83.0" fitWidth="46.0" layoutX="416.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Carro2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroShark" fitHeight="49.0" fitWidth="46.0" layoutX="-2.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Carro3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroBobEsponja" fitHeight="65.0" fitWidth="52.0" layoutX="-10.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroCorrida" fitHeight="50.0" fitWidth="39.0" layoutX="419.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@Carro4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroFishRed" fitHeight="58.0" fitWidth="46.0" layoutX="240.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@Carro5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroFishPurple" fitHeight="68.0" fitWidth="52.0" layoutX="-1.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@Carro6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="carroTaxi" fitHeight="59.0" fitWidth="39.0" layoutX="164.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="24.0" layoutX="467.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuVertical.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="482.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="86.0" layoutX="467.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@SpongebobProfile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="482.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="564.0" layoutY="15.0" text="Velocidade:" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="563.0" layoutY="42.0" mnemonicParsing="false" onAction="#aumentarVelocidadeSpongebob" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="+" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="620.0" layoutY="42.0" mnemonicParsing="false" onAction="#diminuirVelocidadeSpongebob" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="-" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="482.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="482.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="482.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="483.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="86.0" layoutX="486.0" layoutY="78.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PlantonProfile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="112.0" layoutX="446.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@SharkProfile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="86.0" layoutX="463.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@PurpleFishProfile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="131.0" layoutX="455.0" layoutY="298.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RedFishProfile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="292.0" layoutX="788.0" layoutY="7.0" pickOnBounds="true">
+         <image>
+            <Image url="@SpongeBobBackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="292.0" layoutX="788.0" layoutY="83.0" pickOnBounds="true">
+         <image>
+            <Image url="@RaceCarBackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="788.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="788.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="788.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="112.0" layoutX="773.0" layoutY="-2.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TaxiPorfile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="86.0" layoutX="789.0" layoutY="88.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@RaceCarProfile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="292.0" layoutX="776.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuHorizontal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="24.0" layoutX="773.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuVertical.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="24.0" layoutX="1065.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BambuVertical.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelText" layoutX="841.0" layoutY="198.0" style="-fx-background-color: LightBlue;" text="Clique no botao para iniciar">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="564.0" layoutY="91.0" text="Velocidade:" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="563.0" layoutY="118.0" mnemonicParsing="false" onAction="#aumentarVelocidadePlankton" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="+" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="620.0" layoutY="118.0" mnemonicParsing="false" onAction="#diminuirVelocidadePlankton" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="-" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="564.0" layoutY="166.0" text="Velocidade:" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="563.0" layoutY="193.0" mnemonicParsing="false" onAction="#aumentarVelocidadeShark" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="+" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="620.0" layoutY="193.0" mnemonicParsing="false" onAction="#diminuirVelocidadeShark" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="-" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="563.0" layoutY="239.0" text="Velocidade:" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="562.0" layoutY="266.0" mnemonicParsing="false" onAction="#aumentarVelocidadePurpleFish" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="+" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="619.0" layoutY="266.0" mnemonicParsing="false" onAction="#diminuirVelocidadePurpleFish" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="-" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="563.0" layoutY="316.0" text="Velocidade:" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="562.0" layoutY="343.0" mnemonicParsing="false" onAction="#aumentarVelocidadeRedFish" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="+" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="619.0" layoutY="343.0" mnemonicParsing="false" onAction="#diminuirVelocidadeRedFish" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="-" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="888.0" layoutY="12.0" text="Velocidade:" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="887.0" layoutY="39.0" mnemonicParsing="false" onAction="#aumentarVelocidadeTaxi" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="+" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="944.0" layoutY="39.0" mnemonicParsing="false" onAction="#diminuirVelocidadeTaxi" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="-" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="888.0" layoutY="87.0" text="Velocidade:" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="887.0" layoutY="114.0" mnemonicParsing="false" onAction="#aumentarVelocidadeRaceCar" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="+" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="944.0" layoutY="114.0" mnemonicParsing="false" onAction="#diminuirVelocidadeRaceCar" prefHeight="21.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-background-color: #FFB347;" text="-" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="68.0" fitWidth="52.0" layoutX="696.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="52.0" layoutX="697.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="46.0" layoutX="699.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="46.0" layoutX="699.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="52.0" layoutX="696.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="52.0" layoutX="1003.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="52.0" layoutX="1000.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Carro4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="semaforo" fitHeight="150.0" fitWidth="200.0" layoutX="828.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@Semaforo.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

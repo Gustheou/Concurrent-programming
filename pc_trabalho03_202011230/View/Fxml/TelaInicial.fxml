@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControleMenu">
+   <children>
+      <ImageView fitHeight="471.0" fitWidth="820.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/TelaInicial.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="211.0" fitWidth="275.0" layoutX="-16.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" rotate="-20.2">
+         <image>
+            <Image url="@../Images/StickNote1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="20.0" fitWidth="104.0" layoutX="43.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" rotate="-11.9">
+         <image>
+            <Image url="@../Images/Discente.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="16.0" fitWidth="157.0" layoutX="26.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" rotate="-13.4">
+         <image>
+            <Image url="@../Images/Gpn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="247.0" fitWidth="291.0" layoutX="563.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true" rotate="20.0">
+         <image>
+            <Image url="@../Images/StickNote2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="148.0" layoutX="620.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" rotate="19.8">
+         <image>
+            <Image url="@../Images/NumeroDeMatricula.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="16.0" fitWidth="124.0" layoutX="644.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" rotate="22.8">
+         <image>
+            <Image url="@../Images/202011230.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="166.0" layoutX="615.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true" rotate="10.3">
+         <image>
+            <Image url="@../Images/StickNote3.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="659.0" layoutY="344.0" mnemonicParsing="false" onAction="#iniciarButton" rotate="14.0" style="-fx-background-radius: 12;" text="Prosseguir">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControleSemestre20211">
+   <children>
+      <ImageView fitHeight="93.0" fitWidth="186.0" layoutX="264.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/workspace5-flat-lay_122060.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="117.0" layoutX="474.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/iconfinder-laptopwithcode-4417093_116630.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="214.0" layoutY="66.0" text="Semestre 2021.1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="horariosRadioButton" layoutX="53.0" layoutY="151.0" mnemonicParsing="false" text="Horarios 2021.1">
+         <toggleGroup>
+            <ToggleGroup fx:id="radioButtonGroup" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="disciplinaProfessoresRadioButton" layoutX="53.0" layoutY="221.0" mnemonicParsing="false" text="Disciplinas e professores" toggleGroup="$radioButtonGroup" />
+      <Button layoutX="89.0" layoutY="317.0" mnemonicParsing="false" onAction="#voltarButton" text="Voltar" />
+      <Button layoutX="316.0" layoutY="317.0" mnemonicParsing="false" onAction="#continuarButton" text="Continuar" />
+      <AnchorPane layoutY="-2.0" prefHeight="32.0" prefWidth="600.0" style="-fx-background-color: #1A2227;" />
+      <AnchorPane layoutX="-2.0" prefHeight="400.0" prefWidth="32.0" style="-fx-background-color: #1A2227;" />
+      <AnchorPane layoutY="370.0" prefHeight="32.0" prefWidth="600.0" style="-fx-background-color: #1A2227;" />
+      <Label fx:id="tipText" layoutX="151.0" layoutY="322.0" text="*Selecione uma das opcoes*" underline="true" visible="false">
+         <font>
+            <Font name="System Italic" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="885.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControleGeral">
+   <children>
+      <ImageView fitHeight="526.0" fitWidth="943.0" layoutX="-2.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/CenarioEditado.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="58.0" layoutX="213.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Banco.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="58.0" layoutX="328.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Banco.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="58.0" layoutX="442.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Banco.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="179.0" fitWidth="183.0" layoutX="263.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/MesaRedonda.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="58.0" layoutX="257.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Banco.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="58.0" layoutX="391.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Banco.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemFilosofo0" fitHeight="96.0" fitWidth="88.0" layoutX="196.0" layoutY="283.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/PensandoState.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemFilosofo4" fitHeight="96.0" fitWidth="88.0" layoutX="311.0" layoutY="201.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/PensandoState.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemFilosofo3" fitHeight="96.0" fitWidth="88.0" layoutX="425.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/PensandoState.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemFilosofo1" fitHeight="96.0" fitWidth="88.0" layoutX="240.0" layoutY="374.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/PensandoState.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemFilosofo2" fitHeight="96.0" fitWidth="88.0" layoutX="374.0" layoutY="374.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/PensandoState.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemHashi0" fitHeight="35.0" fitWidth="55.0" layoutX="293.0" layoutY="313.0" pickOnBounds="true" rotate="37.4">
+         <image>
+            <Image url="@../Images/HashiSimples.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemHashi1" fitHeight="35.0" fitWidth="55.0" layoutX="285.0" layoutY="358.0" pickOnBounds="true" rotate="-30.0">
+         <image>
+            <Image url="@../Images/HashiSimples.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemHashi2" fitHeight="35.0" fitWidth="55.0" layoutX="331.0" layoutY="369.0" pickOnBounds="true" rotate="-87.1">
+         <image>
+            <Image url="@../Images/HashiSimples.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemHashi3" fitHeight="35.0" fitWidth="55.0" layoutX="367.0" layoutY="349.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" rotate="30.0">
+         <image>
+            <Image url="@../Images/HashiSimples.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemHashi4" fitHeight="35.0" fitWidth="55.0" layoutX="360.0" layoutY="311.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" rotate="-37.4">
+         <image>
+            <Image url="@../Images/HashiSimples.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="57.0" layoutX="579.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Comida1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="65.0" layoutX="575.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Comida2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="55.0" layoutX="580.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Comida3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="iniciarButton" layoutX="723.0" layoutY="382.0" mnemonicParsing="false" onAction="#iniciarButton" prefHeight="32.0" prefWidth="82.0" style="-fx-background-color: #C35817; -fx-border-color: #FAFAFA; -fx-background-radius: 10; -fx-border-radius: 10;" text="Iniciar" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="98.0" fitWidth="88.0" layoutX="81.0" layoutY="352.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.9" pickOnBounds="true" preserveRatio="true" rotate="59.3">
+         <image>
+            <Image url="@../Images/UmaruJogando.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="221.0" layoutY="392.0" text="1" textFill="RED">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="348.0" layoutY="166.0" text="4" textFill="RED">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagemBalaoPensante0" fitHeight="97.0" fitWidth="183.0" layoutX="86.0" layoutY="207.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/balaoPensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemPensamentoPraia0" fitHeight="43.0" fitWidth="55.0" layoutX="146.0" layoutY="228.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Pensamento.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemBalaoPensante4" fitHeight="97.0" fitWidth="183.0" layoutX="187.0" layoutY="125.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/balaoPensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemPensamentoPraia4" fitHeight="43.0" fitWidth="55.0" layoutX="247.0" layoutY="146.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Pensamento.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemBalaoPensante3" fitHeight="97.0" fitWidth="183.0" layoutX="440.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/balaoPensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemPensamentoPraia3" fitHeight="43.0" fitWidth="55.0" layoutX="500.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Pensamento.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="502.0" layoutY="273.0" text="3" textFill="RED">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagemBalaoPensante1" fitHeight="97.0" fitWidth="183.0" layoutX="113.0" layoutY="437.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-74.1">
+         <image>
+            <Image url="@../Images/balaoPensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemPensamentoPraia1" fitHeight="43.0" fitWidth="55.0" layoutX="170.0" layoutY="461.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Pensamento.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemBalaoPensante2" fitHeight="97.0" fitWidth="183.0" layoutX="404.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true" rotate="82.1">
+         <image>
+            <Image url="@../Images/balaoPensando.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemPensamentoPraia2" fitHeight="43.0" fitWidth="55.0" layoutX="468.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Pensamento.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemComFome0" fitHeight="58.0" fitWidth="102.0" layoutX="185.0" layoutY="308.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Faminto.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="182.0" layoutY="272.0" text="0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagemComFome1" fitHeight="58.0" fitWidth="102.0" layoutX="243.0" layoutY="397.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Faminto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemComFome4" fitHeight="58.0" fitWidth="102.0" layoutX="308.0" layoutY="227.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Faminto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemComFome2" fitHeight="58.0" fitWidth="102.0" layoutX="369.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Faminto.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="460.0" layoutY="392.0" text="2" textFill="RED">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagemComFome3" fitHeight="58.0" fitWidth="102.0" layoutX="420.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Faminto.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemComendo0" fitHeight="108.0" fitWidth="88.0" layoutX="201.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Comendo2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemComendo1" fitHeight="108.0" fitWidth="88.0" layoutX="240.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Comendo2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemComendo2" fitHeight="108.0" fitWidth="88.0" layoutX="375.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Comendo2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemComendo3" fitHeight="108.0" fitWidth="88.0" layoutX="427.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Comendo2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemComendo4" fitHeight="108.0" fitWidth="88.0" layoutX="309.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Comendo2.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="52.0" prefWidth="885.0" style="-fx-background-color: #C35817;">
+         <children>
+            <Slider fx:id="sliderUmaruThinking0" blockIncrement="1.0" layoutX="14.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor></Slider>
+            <Slider fx:id="sliderUmaruThinking1" blockIncrement="1.0" layoutX="189.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor></Slider>
+            <Slider fx:id="sliderUmaruThinking2" blockIncrement="1.0" layoutX="369.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor></Slider>
+            <Slider fx:id="sliderUmaruThinking4" blockIncrement="1.0" layoutX="709.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor></Slider>
+            <Slider fx:id="sliderUmaruThinking3" blockIncrement="1.0" layoutX="539.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor></Slider>
+            <Label fx:id="labelUmaruThinking0" layoutX="25.0" layoutY="5.0" text="Umaru - Thinking 0" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelUmaruThinking1" layoutX="198.0" layoutY="5.0" text="Umaru - Thinking 1" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label fx:id="labelUmaruThinking2" layoutX="375.0" layoutY="5.0" text="Umaru - Thinking 2" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label fx:id="labelUmaruThinking3" layoutX="545.0" layoutY="6.0" text="Umaru - Thinking 3" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label fx:id="labelUmaruThinking4" layoutX="715.0" layoutY="5.0" text="Umaru - Thinking 4" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="575.0" prefHeight="52.0" prefWidth="885.0" style="-fx-background-color: #C35817;">
+         <children>
+            <Label fx:id="labelUmaruEating3" layoutX="562.0" layoutY="5.0" text="Umaru - Eating 3" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelUmaruEating0" layoutX="30.0" layoutY="5.0" text="Umaru - Eating 0" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelUmaruEating1" layoutX="205.0" layoutY="5.0" text="Umaru - Eating 1" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelUmaruEating2" layoutX="380.0" layoutY="5.0" text="Umaru - Eating 2" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelUmaruEating4" layoutX="720.0" layoutY="5.0" text="Umaru - Eating 4" textFill="#f8f5f5" visible="false">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Slider fx:id="sliderUmaruEating0" blockIncrement="1.0" layoutX="14.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor>
+            </Slider>
+            <Slider fx:id="sliderUmaruEating1" blockIncrement="1.0" layoutX="189.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor>
+            </Slider>
+            <Slider fx:id="sliderUmaruEating2" blockIncrement="1.0" layoutX="369.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor>
+            </Slider>
+            <Slider fx:id="sliderUmaruEating3" blockIncrement="1.0" layoutX="539.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor>
+            </Slider>
+            <Slider fx:id="sliderUmaruEating4" blockIncrement="1.0" layoutX="709.0" layoutY="30.0" majorTickUnit="1000.0" max="10.0" min="1.0" minorTickCount="1000" nodeOrientation="RIGHT_TO_LEFT" value="5.0" visible="false">
+               <cursor>
+                  <Cursor fx:constant="H_RESIZE" />
+               </cursor>
+            </Slider>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="imageUmaruPet1" fitHeight="72.0" fitWidth="48.0" layoutX="756.0" layoutY="367.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/UmaruPet.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageUmaruPet" fitHeight="72.0" fitWidth="48.0" layoutX="716.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/UmaruPet2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="48.0" layoutX="543.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/UmaruPet2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="48.0" layoutX="618.0" layoutY="335.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/UmaruPet.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

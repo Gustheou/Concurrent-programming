@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControleGeral">
+   <children>
+      <ImageView fitHeight="306.0" fitWidth="600.0" layoutY="-1.0" opacity="0.8" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/Cenario.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Esteira.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombaProduzida" fitHeight="36.0" fitWidth="49.0" layoutX="81.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" rotate="24.4">
+         <image>
+            <Image url="@../Images/Bomba.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombermanCarrying1" fitHeight="60.0" fitWidth="78.0" layoutX="310.0" layoutY="217.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="18.4">
+         <image>
+            <Image url="@../Images/Levar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombermanThrowing1" fitHeight="62.0" fitWidth="80.0" layoutX="423.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" rotate="-6.7">
+         <image>
+            <Image url="@../Images/Entregar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombExplode" fitHeight="70.0" fitWidth="80.0" layoutX="521.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Bomba-explodindo.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombermanRunning1" fitHeight="167.0" fitWidth="169.0" layoutX="172.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Running.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="inicializarButton" layoutX="201.0" layoutY="114.0" mnemonicParsing="false" onAction="#inicializarButton" style="-fx-background-radius: 5;" text="Inicializar" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="bombermanRunning2" fitHeight="167.0" fitWidth="169.0" layoutX="187.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Running.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombermanCarrying2" fitHeight="60.0" fitWidth="78.0" layoutX="349.0" layoutY="219.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="18.4" visible="false">
+         <image>
+            <Image url="@../Images/Levar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombermanThrowing2" fitHeight="62.0" fitWidth="80.0" layoutX="441.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Entregar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombermanRunning3" fitHeight="167.0" fitWidth="169.0" layoutX="167.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Running.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombermanCarrying3" fitHeight="60.0" fitWidth="78.0" layoutX="336.0" layoutY="218.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="18.4" visible="false">
+         <image>
+            <Image url="@../Images/Levar.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bombermanThrowing3" fitHeight="62.0" fitWidth="80.0" layoutX="421.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../Images/Entregar.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="velocidadeDaBombaUpButton" layoutX="144.0" layoutY="178.0" mnemonicParsing="false" onAction="#velocidadeDaBombaUpButton" style="-fx-background-radius: 5;" text="⋀" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="velocidadeDaBombaDownButton" layoutX="33.0" layoutY="178.0" mnemonicParsing="false" onAction="#velocidadeDaBombaDownButton" style="-fx-background-radius: 5;" text="⋁" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="velocidadeDaBombaTextField" editable="false" layoutX="19.0" layoutY="149.0" style="-fx-background-radius: 5;" text="Velocidade da bomba:" visible="false">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="VelocidadeDoBombermanTextField" editable="false" layoutX="328.0" layoutY="149.0" prefHeight="26.0" prefWidth="200.0" text="Velocidade do bomberman:" visible="false">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <Button fx:id="velocidadeDoBombermanUpButton" layoutX="487.0" layoutY="178.0" mnemonicParsing="false" onAction="#velocidadeDoBombermanUpButton" style="-fx-background-radius: 5;" text="⋀" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="velocidadeDoBombermanDownButton" layoutX="340.0" layoutY="178.0" mnemonicParsing="false" onAction="#velocidadeDoBombermanDownButton" style="-fx-background-radius: 5;" text="⋁" visible="false">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
